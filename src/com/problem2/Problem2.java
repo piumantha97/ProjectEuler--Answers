@@ -1,11 +1,12 @@
-package com.company;
+package com.problem2;
+
 
 public class Problem2
 {
     public static void main (String [] args)
     {
-        int sum =0;// to get the sum of even numbers
-        int  x=1; //initial values
+        int sum =0;
+        int  x=1;
         int y=2;
         int z= x+y;
         while (z<4000000) {
@@ -19,8 +20,8 @@ public class Problem2
             }
 
         }
-        sum=sum+2; //adding miissing value to sum;(initial value of y);
+        sum=sum+2;
         System.out.println("sum of "+ sum);
 
-}
+    }
 }
