@@ -12,7 +12,7 @@ public class Problem9 {
                 {
                     sum =i+j+k;
                     if(sum == 1000) {
-                        int pi = i * i + j * j;
+                        int pi = (int) (Math.pow(i,2) +  Math.pow(j,2));
                         if (k * k == pi)
                         {
                            // return i + " "+ j+ " "+ k;
